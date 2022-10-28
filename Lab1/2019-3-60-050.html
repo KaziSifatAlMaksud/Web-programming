@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <style>
+       
+    body{
+            margin: 11%;
+            width: 80%;
+            align-items: center;
+        }
+        table{
+            width: 100%;
+        }
+    table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+     padding: 15px;  
+     text-align: center;   
+    }
+    
+    .header{
+        width: 100%;
+        display: flex;
+    }
+    td{
+        padding: 10px;
+    }
+    /* .logo{
+       
+    } */
+    .logoheder{
+        text-align: left;
+        margin-left: 35px;        
+    }
+    h4{
+        font-size: 25px;        
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="images.jpg" alt="icon" height="100px" >
+        </div>
+       
+        <div class="logoheder">
+            <h3>East West University<br>
+                Department of Computer Science and Engineering<br>
+                Course Outline of CSE479/480<br>
+                Fall 2022 Semester</h3>
+    
+        </div>
+    </div>
+      
+    <hr>
+    <h4 style="background-color:lightblue;">Course Information</h4>
+    <h4><b>Course: CSE479/480 Web Database Programming</b></h4>
+    <table>
+        <caption style="text-align: left;"><b>Credit and Teaching Scheme: </b></caption>
+        <tr>
+            <td></td>
+            <td>Theory</td>
+            <td>Laboratory</td>
+            <td>Total</td>
+        </tr>
+        <tr>
+            <td>Credits</td>
+            <td>3</td>
+            <td>1</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Contact
+                Hours</td>
+            <td>3 Hours/Week for 13
+                Weeks</td>
+            <td>2 Hours/Week for 13
+                Weeks</td>
+            <td>5 Hours/Week for 13
+                Weeks</td>
+        </tr>     
+
+    </table>
+    <h5><b> Prerequisite: </b>CSE301/CSE302 Database System</h5>
+
+    <h4 style="background-color:lightblue;">Course Objective</h4>
+    <p>This course introduces the fundamental concepts and practices of designing and implementing a
+        website using the database. It also analyzes website requirements and determines the entities
+        involved in the system and their relationship to one another. The main outcome of this course is
+        the construction of actual information system by following the software and database lifecycle
+        from the requirement analysis, specification, modeling and design phases. Knowledge of this
+        course will be needed as prerequisite knowledge for future courses such as CSE 482 Parallel
+        Computation, CSE 484 Computation Geometry, and CSE 485 Advanced Algorithm.</p>
+
+        <h4 style="background-color:lightblue;">Course Outcomes (COs)</h4>
+        <p>After completion of this course students will be able to:</p>
+    <table>
+        <tr>
+       <td>CO1</td> 
+      <td><b>Apply</b>  and <b>examine</b> basic webpage designing concepts such as HTML, CSS, and
+         Bootstrap for designing frontend of webpages.</td>
+    </tr>
+    <tr><td>CO2</td> 
+        <td> <b>Design</b> and <b>develop</b> the webpages using Python and MongoDB for designing backend
+            of a dynamic web application.</td>
+    </tr>
+    <tr><td>CO3 </td> 
+        <td><b>Apply </b>and<b>interpret</b>  concepts of Cookies, Sessions, Authentication, Data Security, Web
+            services while developing a website through a web development framework.</td>
+    </tr>
+    <tr>
+        <td>CO4 </td> 
+        <td><b>Choose </b>appropriate tools,<b>perform</b>  and <b>demonstrate</b>  skills and<b>write</b>  report to design,
+            build, and test realistic and useful web-based database applications.
+        </td>
+    </tr>
+</table>
+
+    <h5 style="text-align: right;">Page <b>1</b>of <b>6</b></h5>
+    <h4 style="background-color:lightblue;">Methods and Assessment Scheme</h4>
+    <table>
+        <tr>
+            <th>Course Topic</th>
+            <th>Teachin-Learning  Method</th>
+            <th>CO</th>
+            <th>CO Mark of Cognitive Learning Levels</th>
+            <th>Mark of  COs</th>
+            <th>Exam(Mark)</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>C3</td>
+            <td>C4</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Introducing basic concepts on web technology, Basic
+                and Advanced
+                HTML</td>
+            <td>Lecture, Class Discussion, Discussion
+                Outside Class
+                with
+                Instructor/
+                Teaching
+                Assistant</td>
+            <td rowspan="2">CO1</td>
+            <td>5</td>
+            <td>2</td>
+            <td>7</td>
+           <td rowspan="2">Midterm Exam I (10)
+            </td>
+        </tr>
+        <tr>
+            <td>CSS and Bootstrap</td>
+            <td>Do</td>            
+            <td></td>
+            <td>3</td>
+            <td>3</td>        
+        </tr>
+        <tr>
+            <td>Basic web
+programming using
+Python-flask</td>
+            <td>Do</td>
+            <td rowspan="3"></td>
+            <td></td>
+            <td>5</td>
+            <td>5</td>
+            <td rowspan="3">Midterm
+                Exam II
+                (10)
+                </td>
+        </tr>
+        <tr>
+            <td>JSON for the
+                representation of the
+                data</td>
+            <td></td>
+            <td>2</td>
+            <td></td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Basic MongoDB for
+                NoSQL database</td>
+            <td>Do</td>
+            <td></td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+        <td>Advanced
+            MongoDB for
+            NoSQL database</td>
+                        <td>Do</td>
+                        <td rowspan="3">CO3</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>5</td>
+                        <td rowspan="3">Final
+                            Exam
+                            (10)
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td></td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Working with
+                            Sessions, Cookies,
+                            Authentication and
+                            Data Security,
+                            API/Web service</td>
+                        <td>Do</td>
+                        <td>2</td>
+                        <td></td>
+                        <td>2</td>
+                    </tr>
+
+    </table>
+
+    <br>
+    <br>
+    <p style="text-align: right;">Page <b>2</b> of <b>6</b></p>
+    <br>
+    <br>
+    <h4 style="background-color:lightblue;">Lab Exams</h4>
+
+    <table>
+        <tr>
+            <th>Exam</th>
+            <th>Topic</th>
+            <th>
+                CO
+            </th>
+            <th>
+                Mark
+            </th>
+            <th>
+                Total
+            </th>
+        </tr>
+        <tr>
+            <td>Lab exam 1 </td>
+            <td>Basic and advanced HTML </td>
+            <td>CO1</td>
+            <td>5</td>
+            <td rowspan="2">Midterm I (10)</td>
+        </tr>
+        <tr>
+            <td>Lab exam 2 </td>
+            <td>CSS and Bootstrap </td>
+            <td>CO1</td>
+            <td>5</td>
+           
+        </tr>
+        <tr>
+            <td>Lab exam 3 </td>
+            <td>Basic web programming using Python-flask </td>
+            <td>CO2</td>
+            <td>5</td>
+            <td rowspan="3">Midterm II (15)</td>
+        </tr>
+        <tr>
+            <td>Lab exam 4 </td>
+            <td>JSON for the representation of the data </td>
+            <td>CO2</td>
+            <td>5</td>
+           
+        </tr>
+        <tr>
+            <td>Lab exam 5 </td>
+            <td>Basic MongoDB for NoSQL database </td>
+            <td>CO2</td>
+            <td>5</td>
+           
+        </tr>
+        <tr>
+            <td>Lab exam 6 </td>
+            <td>Advanced MongoDB for NoSQL database</td>
+            <td>CO2</td>
+            <td>5</td>
+            <td rowspan="3">Final (15)</td>
+        </tr>
+        <tr>
+            <td>Lab exam 7 </td>
+            <td>JavaScript</td>
+            <td>CO3</td>
+            <td>5</td>
+           
+        </tr>
+        <tr>
+            <td>Lab exam 8 </td>
+            <td>Working with Sessions, Cookies, 
+                Authentication </td>
+            <td>CO3</td>
+            <td>5</td>
+           
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <Br>
+        <p style="text-align: right;">Page <b>3</b> of <b>6</b></p>
+    <h4 style="background-color:lightblue;">Mini Project</h4>
+
+    <table>
+        <tr>
+            <th rowspan="2">
+                Mini Project
+            </th>
+            <th rowspan="2">Teaching-Learning
+                Method
+                </th>
+            <th rowspan="2">CO</th>
+            <th>Mark of
+                Cognitive
+                Levels
+                </th>
+            <th colspan="2">Mark of
+                Psychomotor
+                Levels</th>
+            <th colspan="2">Mark of
+                    Affective
+                    Levels
+                    </th>
+            <th>Mark
+                        of COs</th>
+        </tr>
+        <tr>
+            <td>C3</td>
+            <td>C4</td>
+            <td>P2</td>
+            <td>P3</td>
+            <td>A2</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mini Project
+                including
+                Report and
+                Presentation</td>
+            <td>Moderately
+                complex
+                Project with
+                report writing,
+                and oral/poster
+                presentation</td>
+            <td>
+                CO4
+            </td>
+            <td>4</td>
+            <td>4</td>
+
+            <td>4</td>
+            <td>4</td>
+            <td>4</td>
+            <td>20.0</td>
+        </tr>
+
+    </table>
+    <h4 style="background-color:lightblue;">Overall Assessment Scheme</h4>
+    <table>
+        <tr>
+            <th></th>
+            <th colspan="4">C0</th>
+            <Th>Assessment Area
+                Mark</Th>
+        </tr>
+        <tr>
+            <th>Assessment Area</th>
+            <th>CO1</th>
+            <th>CO2</th>
+            <th>CO3</th>
+            <th>CO4</th>
+            <th></th>
+
+        </tr>
+        <tr>
+            <th>Attendance and Class Participation</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>5</th>
+
+        </tr>
+        <tr>
+            <th>Class Test/Quizzess</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>5</th>
+
+        </tr>
+        <tr>
+            <th>Midterm Exam - I</th>
+            <th>10</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>10</th>
+
+        </tr>
+        <tr>
+            <th>Midterm Exam - II</th>
+            <th></th>
+            <th>10</th>
+            <th></th>
+            <th></th>
+            <th>10</th>
+
+        </tr>
+        <tr>
+            <th>Final</th>
+            <th></th>
+            <th></th>
+            <th>10</th>
+            <th></th>
+            <th>10</th>
+
+        </tr>
+        <tr>
+            <th>Laboratory Experiments, Viva, and Lab
+                Project</th>
+            <th>10</th>
+            <th>15</th>
+            <th>15</th>
+            <th>20</th>
+            <th>60</th>
+
+        </tr>
+        <tr>
+            <th><b>Total Mark</b></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>100</th>
+
+        </tr>
+
+    </table>
+    <br>
+    <h4 style="background-color:lightblue;">Teaching Materials/Equipment</h4>
+    <h4>Textbook:</h4>
+    <ol>
+        <li>“HTTP: The Definitive Guide”, Author: Robert Sedgewick, Addison-Wesley Publishing
+            Company.</li>
+        <li>“Head First HTML with CSS and XHTML”, Author: Elisabeth Freeman, Eric Freeman,
+            1st Edition, O’REILLY, 2006.</li>
+        <li>“JavaScript: The Definitive Guide”, Author: David Flanagan, 6th Edition, O’REILLY,
+            2011.</li>
+        <li><b>Web Links:</b>W3Schools Online Web Tutorials; URl: <a href="#">http://www.w3schools.com</a></li>
+    </ol>
+
+    <br>
+
+    <p style="text-align: right;">Page <b>4</b> of <b>6</b></p>
+    <h4 style="background-color:lightblue;">Grading System</h4>
+    <table>
+        <tr>
+            <th>Marks(%)</th>
+            <th>Latter Grede</th>
+            <th>Gread Point</th>
+            <th>Marks(%)</th>
+            <th>Latter Grade</th>
+            <th>Grade Point</th>
+        </tr>
+        <tr>
+            <td>97-100</td>
+            <td>A+</td>
+            <td>4.00</td>
+            <td>73-76</td>
+            <td>C+</td>
+            <td>2.30</td>
+        </tr>
+        <tr>
+            <td>90-96</td>
+            <td>A</td>
+            <td>4.00</td>
+            <td>70-72</td>
+            <td>C</td>
+            <td>2.00</td>
+        </tr>
+        <tr>
+            <td>87-89</td>
+            <td>A-</td>
+            <td>4.00</td>
+            <td>68-69</td>
+            <td>C-</td>
+            <td>1.70</td>
+        </tr>
+        <tr>
+            <td>83-86</td>
+            <td>B+</td>
+            <td>3.30</td>
+            <td>63-66</td>
+            <td>D+</td>
+            <td>1.30</td>
+        </tr>
+        <tr>
+            <td>80-82</td>
+            <td>B</td>
+            <td>3.00</td>
+            <td>60-62</td>
+            <td>D</td>
+            <td>1.00</td>
+        </tr>
+        <tr>
+            <td>77-79</td>
+            <td>B-</td>
+            <td>2.70</td>
+            <td>Below 60</td>
+            <td>F</td>
+            <td>0.00</td>
+        </tr>
+
+    </table>
+
+
+    <h4 style="background-color:lightblue;">Exam Dates</h4>
+    <br>
+    <table>
+        <tr>
+            <th>Section</th>
+            <th>Term I</th>
+            <th>Term II</th>
+            <th>Final</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+
+    <h4 style="background-color:lightblue;">Academic Code of Conduct</h4>
+    <h5>Academic Integrity:</h5>
+    <p>Any form of cheating, plagiarism, personification, falsification of a document as well as any other
+    form of dishonest behavior related to obtaining academic gain or the avoidance of evaluative
+    exercises committed by a student is an academic offence under the Academic Code of Conduct
+    and<b>may lead to severe penalties as decided by the Disciplinary Committee of the university.</b>
+    </p>
+    <h5>Special Instructions:</h5>
+    
+    <ul>
+        <li>Students are expected to attend all classes and examinations. A student MUST have at least
+            90% class attendance to sit for the final exam.</li>
+        <li>Students will not be allowed to enter the classroom after 20 minutes of the starting time.</li>
+        <li>For plagiarism, the grade will automatically become zero for that exam/assignment.
+        </li>
+        <li>Normally there will be NO make-up exam. However, in case of severe illness, the death of
+            any family member, any family emergency, or any humanitarian ground, if a student
+            misses an exam, the student MUST get the approval of makeup exam by written application to
+            the Chairperson through the Course Instructor within 48 hours of the exam time. Proper
+            supporting documents in favor of the reason of missing the exam have to be presented with the
+            application.</li>
+        <li>For the final exam, there will be NO makeup exam. However, in case of severe illness, the
+            death of any family member, any family emergency, or any humanitarian ground, if a
+            student misses the final exam, the student MUST get the approval of Incomplete Grade by
+            written application to the Chairperson through the Course Instructor within 48 hours of the
+            final exam time. Proper supporting documents in favor of the reason of missing the final exam
+            have to be presented with the application. It is the responsibility of the student to arrangean Incomplete Exam within the deadline mentioned in the Academic Calendar in
+            consultation with the Course Instructor.
+            </li>
+        <li>All mobile phones MUST be turned into silent mode during class and exam period.</li>
+        <li> There is zero tolerance for cheating on an exam. Students caught with cheat sheets in their
+            possession, whether used or not; writing on the palm of the hand, back of calculators, chairs or
+            nearby walls; copying from cheat sheets or other cheat sources; copying from another
+            examinee, etc. would be treated as cheating in the exam hall. The only penalty for cheating is
+            expulsion for several semesters as decided by the Disciplinary Committee of the
+            university.</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <p style="text-align: right;">Page <b>6</b> of <b>6</b></p>
+</body>
+</html>

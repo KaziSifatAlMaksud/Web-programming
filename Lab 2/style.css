@@ -1,0 +1,19 @@
+.footer {
+    padding: 45px;
+    color: #f4f6fd;
+    font-size: 14px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #040b14;
+  }
+  
+  
+  .footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+  }
+
+ 

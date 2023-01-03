@@ -2,31 +2,28 @@
     Username
     <br>
     <input type="text" name="username" id="user_name">
-    <p id="username"> </p>
+
     <br>
 <br>
     Password
     <br>
 <input type="password" name="pass" id="user_pass" >
-    <p id="password"> </p>
+
     <br>
 
 <br>
     Confirm Password
     <br>
 <input type="password" name="c_pass" id="user_pass_2" >
-        <p id="con_password"> </p>
     <br>
 <br>
     Email
     <br>
 <input type="email" name="email" id="user_email">
-        <p id="email"> </p>
     <br> <br>
     Phone
     <br>
 <input type="text" name="phone" id="user_phone">
-    <p id="phone"></p>
     <br><br>
 <button type="button" onclick="loadDoc()">Request data</button>
 <p id="demo"> </p>
@@ -35,37 +32,18 @@
 function loadDoc() {
   console.log("clicked")
   const xhttp = new XMLHttpRequest();
-  const xhttp2 = new XMLHttpRequest();
-  const xhttp3 = new XMLHttpRequest();
     xhttp.onload = function() {
-    const text = document.getElementById("username").innerHTML = this.responseText;
-  }
-  xhttp2.onload = function() {
-    const text = document.getElementById("email").innerHTML = this.responseText;
-
-  }
-  xhttp3.onload = function() {
     const text = document.getElementById("demo").innerHTML = this.responseText;
   }
   xhttp.open("POST", "/");
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
-  xhttp2.open("POST", "/");
-  xhttp2.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-
-  xhttp3.open("POST", "/");
-  xhttp3.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   var username = document.getElementById("user_name").value;
   var pass = document.getElementById("user_pass").value;
   var c_pass = document.getElementById("user_pass_2").value;
    var email = document.getElementById("user_email").value;
   var phone = document.getElementById("user_phone").value;
 
-
   xhttp.send("username="+ username+"&pass="+pass+"&pass2="+c_pass+"&email="+email+"&phone="+phone);
-
-  xhttp2.send("username="+ username+"&pass="+pass+"&pass2="+c_pass+"&email="+email+"&phone="+phone);
-
-  xhttp3.send("username="+ username+"&pass="+pass+"&pass2="+c_pass+"&email="+email+"&phone="+phone);
 }
 </script>
